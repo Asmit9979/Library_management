@@ -32,20 +32,20 @@ CREATE TABLE Checkout (
 
 -- Authors
 INSERT INTO Authors (AuthorID, AuthorName) VALUES
-(1, 'John Doe'),
-(2, 'Jane Smith'),
-(3, 'Robert Johnson');
+(1, 'XYZ'),
+(2, 'ABC'),
+(3, 'PQR');
 
 -- Books
 INSERT INTO Books (ISBN, Title, AuthorID, Genre, AvailableCopies) VALUES
-('102', 'Introduction to SQL', 1, 'Educational', 5),
-('99', 'Database Design Basics', 2, 'Technical', 3),
-('55', 'Fictional Adventure', 3, 'Fiction', 8);
+('102', 'know your self', 1, 'Educational', 5),
+('99', 'c++', 2, 'Technical', 3),
+('55', 'talking lion', 3, 'Fiction', 8);
 
 -- Members
 INSERT INTO Members (MemberID, MemberName, Email, PhoneNumber) VALUES
-(101, 'Alice Adams', 'alice@email.com', '123-456-7890'),
-(102, 'Bob Brown', 'bob@email.com', '987-654-3210');
+(101, 'JAI', 'Jai@email.com', '123-456-7890'),
+(102, 'SHYAM', 'shyam123@email.com', '987-654-3210');
 
 SELECT * FROM Books;
 
